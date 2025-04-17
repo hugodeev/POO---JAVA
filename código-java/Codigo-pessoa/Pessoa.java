@@ -15,6 +15,7 @@ public class Pessoa{
     }
 
     // Método
+    // é uma proprieda de ação ou comportamento do objeto.
     public void falar(){
 
         System.out.println("Olá, sou " + nome + " e tenho " + idade + " anos!!");
