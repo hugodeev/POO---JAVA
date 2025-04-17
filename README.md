@@ -1,8 +1,8 @@
-# Repositório de Programação Orientada a Objetos (Java)
+# 📘 Repositório de Programação Orientada a Objetos (Java)
 
-Este repositório foi criado para armazenar todos os códigos e exercícios desenvolvidos ao longo do ano letivo na disciplina **Programação Orientada a Objetos**, utilizando a linguagem **Java**.
+Este repositório foi criado para armazenar todos os códigos e exercícios desenvolvidos ao longo do ano letivo na disciplina **Programação Orientada a Objetos**, utilizando a linguagem **Java** ☕.
 
-## Instituição
+## 🏫 Instituição
 
 **Instituto Federal da Paraíba - IFPB**  
 **Campus Guarabira**  
@@ -10,11 +10,11 @@ Curso: **Técnico em Informática**
 Semestre: **1º Semestre**  
 Professor: **José de Sousa Barros**
 
-## Objetivo
+## 🎯 Objetivo
 
 Consolidar os principais conceitos de POO através da prática com exemplos, exercícios e projetos, organizados de forma cronológica ou por tópicos abordados em aula.
 
-## Conteúdo
+## 📚 Conteúdo
 
 - **Introdução à POO**
   - Classes e objetos
@@ -32,18 +32,18 @@ Consolidar os principais conceitos de POO através da prática com exemplos, exe
 - **Manipulação de arquivos**
 - **Projeto Final (se aplicável)**
 
-## Estrutura do Repositório
+## 📂 Estrutura do Repositório
 
 /poo-java ├── semana-01/ │   ├── ExemploClasseSimples.java │   └── Exercicio1.java ├── semana-02/ │   ├── HerancaExemplo.java │   └── ... ├── projetos/ │   ├── sistema-bancario/ │   └── jogo-console/ ├── README.md
 
 > Os códigos estarão organizados por semana ou por tema, com pastas separadas para projetos mais complexos.
 
-## Requisitos
+## ✅ Requisitos
 
 - [Java JDK 17+](https://www.oracle.com/java/technologies/javase-downloads.html)
 - IDE de sua preferência (Eclipse, IntelliJ IDEA, VSCode, etc.)
 
-## Como usar
+## ▶️ Como usar
 
 1. Clone o repositório:
    ```bash
@@ -59,13 +59,13 @@ java NomeDoArquivo
 
 
 
-### Autor:
+### 👤 Autor:
 
-Hugo Matias
+Victor Hugo Matias Salustino 
 
-Desenvolvedor Full Stack
+🧑🏻‍💻 Desenvolvedor Full Stack
 
-Estudante do IFPB - Campus Guarabira
+🎓 Estudante do IFPB - Campus Guarabira
 
 GitHub: @Hugodev
 
