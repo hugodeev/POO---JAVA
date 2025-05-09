@@ -7,7 +7,6 @@ public class Pessoa{
     private String nome; 
     private int idade;
     
-
     // Construtor
     // Adiciona objetos novos a classe.
     public Pessoa (String nome, int idade){
@@ -22,4 +21,5 @@ public class Pessoa{
         System.out.println("Olá, sou " + nome + " e tenho " + idade + " anos!!");
 
     }
+    
 }

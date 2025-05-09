@@ -1,5 +1,5 @@
 
-public class Principal {
+public class PrincipalPessoa {
     
     public static void main(String args[]) {
 
@@ -7,4 +7,5 @@ public class Principal {
        p.falar();
 
     }
+    
 }

@@ -8,7 +8,6 @@ public class Carro{
     private int ano;
     private float velocidade;
     
-
     // Construtor
     public Carro (String fabricante, String modelo, int ano){
         this.fabricante = fabricante;
