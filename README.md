@@ -19,7 +19,6 @@ Consolidar os principais conceitos de POO através da prática com exemplos, exe
 - **Introdução à POO**
   - Classes e objetos
   - Atributos e métodos
-  - Encapsulamento
 - **Construtores e Sobrecarga**
 - **Herança**
 - **Polimorfismo**
