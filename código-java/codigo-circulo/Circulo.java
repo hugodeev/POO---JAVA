@@ -24,7 +24,7 @@ public class Circulo {
     // Imprimir os dados 
     public void imprimir(){
     
-        System.out.printf("Raio: %d, Área: %.2f, Perímetro: %.2f%n", raio, calcularArea(), calcularPerimetro());
+        System.out.printf("Raio: %d \nÁrea: %.2f \nPerímetro: %.2f%n", raio, calcularArea(), calcularPerimetro());
             
     }
 

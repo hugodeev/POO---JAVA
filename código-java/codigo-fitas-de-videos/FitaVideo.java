@@ -20,13 +20,11 @@ public class FitaVideo {
         return precoPorDia;
     }
 
-    // Calcular o valor total do aluguel
-    public double getValorAluguel(int numeroDeDiasAlugada) {
-        return precoPorDia * numeroDeDiasAlugada;
+    public double getValorAluguel(int numDiasAlugada) {
+        return precoPorDia * numDiasAlugada;
     }
 
-    // Converter para textual ou caracteres
     public String toString() {
-        return "Título: " + titulo + ", Preço por dia: R$" + String.format("%.2f", precoPorDia);
+        return "Título da Fita: " + titulo + ", Preço por dia Da Fita: R$" + String.format("%.2f", precoPorDia);
     }
 }

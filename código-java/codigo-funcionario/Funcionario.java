@@ -9,10 +9,10 @@ public class Funcionario {
     private String endereco;
     private String telefone;
     private int idade;
-    private double salario; 
+    private float salario; 
 
     // Construtor
-    public Funcionario(int codigo, String nome, String cpf, String endereco, String telefone, int idade, double salario){
+    public Funcionario(int codigo, String nome, String cpf, String endereco, String telefone, int idade, float salario){
         this.codigo = codigo;
         this.nome = nome; 
         this.cpf = cpf;
@@ -23,78 +23,84 @@ public class Funcionario {
 
     }
 
-    // Método
-    
-    public int getCodigo() {
+    // Método gets e sets:
+ 
+    public int getCodigo(){
         return codigo;
     }
 
-    public void setCodigo(int codigo) {
+    public void setCodigo(int codigo){
         this.codigo = codigo;
     }
 
-    public String getNome() {
+    public String getNome(){
         return nome;
     }
 
-    public void setNome(String nome) {
+    public void setNome(String nome){
         this.nome = nome;
     }
 
-    public String getCpf() {
+    public String getCpf(){
         return cpf;
     }
 
-    public void setCpf(String cpf) {
+    public void setCpf(String cpf){
         this.cpf = cpf;
     }
 
-    public String getEndereco() {
+    public String getEndereco(){
         return endereco;
     }
 
-    public void setEndereco(String endereco) {
+    public void setEndereco(String endereco){
         this.endereco = endereco;
     }
 
-    public String getTelefone() {
-        return telefone;
-    }
-
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
-    }
-
-    public int getIdade() {
+    public int getIdade(){
         return idade;
     }
 
-    public void setIdade(int idade) {
+    public void setIdade(int idade){
         this.idade = idade;
     }
 
-    public double getSalario() {
+    public float getSalario(){
         return salario;
     }
 
-    public void setSalario(float salario) {
+    public void setSalario(float salario){
         this.salario = salario;
     }
 
-    public String getEstado() {
+    public String getEstado(){
 
-        return "Código: " + codigo + 
-               ", Nome: " + nome +
-               ", CPF: " + cpf +
-               ", Endereço: " + endereco +
-               ", Telefone: " + telefone +
-               ", Idade: " + idade + 
-               ", Salário: R$ " + String.format("%.2f", salario);
+        return
+         "\nCódigo: " + codigo +
+         "\nNome: " + nome +
+         "\nCPF: " + cpf +
+         "\nEndereço: " + endereco +
+         "\nTelefone: " + telefone +
+         "\nIdade: " + idade +
+         "\nSalário: R$ " + String.format("%.2f", salario);
 
     }
 
-    public double calculaSalarioLiquido() {
-        return salario * 0.89f; 
+
+    // Criação do segundo get estado - para mostra Salário Atualizado, deixando mais organizado e estruturado.
+    public String getEstadoAtualizado() {
+    return
+        "\nCódigo: " + codigo +
+        "\nNome: " + nome +
+        "\nCPF: " + cpf +
+        "\nEndereço: " + endereco +
+        "\nTelefone: " + telefone +
+        "\nIdade: " + idade +
+        "\nSalário atualizado: R$ " + String.format("%.2f", salario);
+}
+
+    public float calculaSalarioLiquido(){
+        return salario - (salario * 0.11f);
     }
 
     public String toString() {

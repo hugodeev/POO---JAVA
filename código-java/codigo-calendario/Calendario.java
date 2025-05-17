@@ -31,7 +31,7 @@ public class Calendario {
             case 10: return "Outubro";
             case 11: return "Novembro";
             case 12: return "Dezembro";
-            default: return "Mês inválido";
+            default: return "Mês Não Encontrado";
         
         }
 
@@ -43,11 +43,15 @@ public class Calendario {
 
 
     public void anoBissexto() {
+
         if ((ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0)) {
-            System.out.println(ano + " é um ano bissexto.");
-        } else {
-            System.out.println(ano + " não é um ano bissexto.");
+            System.out.println("Ano bissexto!: " + ano );
+        } 
+        
+        else {
+            System.out.println("Não é ano bissexto!: " + ano  );
         }
+
     }
 
 }

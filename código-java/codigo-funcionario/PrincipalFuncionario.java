@@ -2,16 +2,17 @@
 public class PrincipalFuncionario {
     
     public static void main(String[] args) {
-        Funcionario f = new Funcionario(
-            007, "Matias", "543.192.067-20", "Rua da Serra", "(83) 98753-7584",19, 760.49f
+        Funcionario fun = new Funcionario(
+            137, "Matias", "543.192.067-20", "Rua da Serra", "(83) 98753-7584",19, 760.49f
         );
 
-        System.out.println("Dados do Funcionario:");
-        System.out.println(f);
-        f.setSalario(1515.00f);
-        System.out.println("\nDados do Funcionario atualizados:");
-        System.out.println(f);
-        System.out.printf("Salário líquido do Funcionario: R$ %.2f\n", f.calculaSalarioLiquido());
+        System.out.println("Dados iniciais do Funcionario:");
+        System.out.println(fun);
+        fun.setSalario(1320.00f);
+
+        System.out.println("\nDados finais do Funcionario atualizados:");
+        System.out.println(fun.getEstadoAtualizado());
+        System.out.printf("Salário líquido do Funcionario: R$ %.2f\n", fun.calculaSalarioLiquido());
     }
 
 }
