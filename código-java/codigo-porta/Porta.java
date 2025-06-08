@@ -46,7 +46,6 @@ public class Porta {
     public void setEstaAberta(boolean estaAberta){
         this.estaAberta = estaAberta;
     }
-    
 
     // Metodo toString
     public String toString(){

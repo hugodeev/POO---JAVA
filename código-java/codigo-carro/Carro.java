@@ -13,7 +13,7 @@ public class Carro{
         this.fabricante = fabricante;
         this.modelo = modelo;
         this.ano = ano;
-        this. velocidade = 0;
+        this.velocidade = 0;
     }
 
     // Método
